@@ -47,8 +47,10 @@ This section will demonstrate the analysis results for different file formats.
 ## PNG & JPG format files
 ![Image text](https://github.com/cuiyixin555/dgx-spark-rag-ai-agent/blob/master/assets/pic1.png)
 
-## docs format files
 ![Image text](https://github.com/cuiyixin555/dgx-spark-rag-ai-agent/blob/master/assets/pic2.png)
+
+## docs format files
+![Image text](https://github.com/cuiyixin555/dgx-spark-rag-ai-agent/blob/master/assets/pic3.png)
 
 # Reference
 
