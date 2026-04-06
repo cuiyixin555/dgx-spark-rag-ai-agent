@@ -5,7 +5,7 @@ Author: CUI Xin, CUI Yixin & CUI Xiaofen
 
 # Overview:
 
-This is a RAG intelligent paper analysis tool based on the NVIDIA API. The UI is based on Gradio's automatically generated web page. The tool can support the analysis of pdf, png, jpeg and txt multiple file formats. The visual models used include microsoft/phi-3.5-vision-instruct, meta/llama-3.2-11b-vision-instruct. The word embedding models used include nvidia/nv-embedqa-e5-v5. The above model is lightweight and fast, enabling our analysis tools to respond quickly.
+This is a RAG intelligent paper analysis tool based on the NVIDIA API. The UI is based on Gradio's automatically generated web page. The tool can support the analysis of pdf, png, jpeg, txt and docs multiple file formats. The visual models used include microsoft/phi-3.5-vision-instruct, meta/llama-3.2-11b-vision-instruct. The word embedding models used include nvidia/nv-embedqa-e5-v5. The above model is lightweight and fast, enabling our analysis tools to respond quickly.
 
 # How to setup SPARK DGX environment
 In mainland China, you need to switch to the Tsinghua University mirror source.
@@ -35,9 +35,20 @@ pip install faiss-cpu
 
 pip install openai
 
-# Step4 Run 
+## Step4: Run 
 python analysis.py
 
+# Function Show
+This section will demonstrate the analysis results for different file formats.
+
+## PDF format files https://github.com/cuiyixin555/dgx-spark-rag-ai-agent
+![Image text](https://github.com/cuiyixin555/dgx-spark-rag-ai-agent/blob/master/assets/pic0.png)
+
+## PNG & JPG format files
+![Image text](https://github.com/cuiyixin555/dgx-spark-rag-ai-agent/blob/master/assets/pic1.png)
+
+## docs format files
+![Image text](https://github.com/cuiyixin555/dgx-spark-rag-ai-agent/blob/master/assets/pic2.png)
 
 # Reference
 
