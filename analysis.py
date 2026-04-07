@@ -13,7 +13,7 @@ import gradio as gr
 import base64
 from IPython.display import HTML, display
 
-nvapi_key = "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"
+nvapi_key = ""
 os.environ["NVIDIA_API_KEY"] = nvapi_key
 
 _VISION_MODEL_PRIMARY = os.environ.get(
